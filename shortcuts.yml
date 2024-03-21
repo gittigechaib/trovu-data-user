@@ -1,11 +1,111 @@
-# Documentation:
-# https://trovu.net/docs/shortcuts/
-
-examplekeyword 0: http://www.example.com/
-examplekeyword 1: http://www.example.com/?q=<query>
-examplekeyword 2:
-  url: http://www.example.com/?q=<query>&p=<puery>
-  title: Custom shortcut
-  description: My custom shortcut with the keyword examplekeyword and 2 arguments.
+applest 1:
+  url: http://store.apple.com/ch-de/search?find=<query>
+  title: Apple Store Schweiz
+pins 1:
+  url: https://pinboard.in/search/?query=<query>&mine=Meine+Durchsuchen
+  title: pinboard Suche
+metatron 0:
+  url: https://www.findfind.it/shortcuts?namespace=metatron
+  title: Serchilo Metatron Shortcuts
+webcam 1:
+  url: http://www.swisswebcams.ch/suche/ort/<query>
+  title: Swiss Webcams
+preis 1:
+  url: http://www.toppreise.ch/index.php?search=<query>&sRes=OK
+  title: Toppreise.ch
+gb 1:
+  url: https://www.google.com/search?tbm=isch&hl=de&source=hp&biw=1280&bih=890&q=<query>&gbv=2&oq=gugus&aq=f&aqi=g10&aql=&gs_sm=3&gs_upl=1122l1782l0l1923l5l5l0l0l0l0l157l376l1.2l3l0&gs_
+  title: Google Bildersuche
+apple 1:
+  url: http://www.apple.com/chde/search/?q=<query>
+  title: Apple Schweiz
+wen 1:
+  url: http://en.wikipedia.org/w/index.php?title=Special%3ASearch&profile=default&search=<query>&fulltext=Search
+  title: Wikipedia English
+wit 1:
+  url: http://it.wikipedia.org/w/index.php?search=<query>&title=Speciale%3ARicerca
+  title: Wikipedia Italiano
+riccomp 1:
+  url: http://www.ricardo.ch/search/search.asp?txtSearch=<query>&Catg=39091&InTitleAndDesc=1&IsNavBarSearch=1
+  title: ricardo.ch Computer
+ric 1:
+  url: http://www.ricardo.ch/search/search.asp?txtSearch=<query>&Catg=1&InTitleAndDesc=1&IsNavBarSearch=1
+  title: ricardo.ch
+sb 1:
+  url: https://startpage.com/do/search?query=<query>&cat=pics&pl=chrome&language=deutsch&nossl=1
+  title: Startpage Bilder
+shortman 0:
+  url: https://www.findfind.it/blog/overview-shortcuts-managing-shortcuts
+  title: Shortcuts managen
+dictit 1:
+  url: http://deit.dict.cc/?s=<Wort>
+  title: Italienisch-Deutsch (dict.cc)
   tags:
-  - example
+  - language
+  - dictionary
+  - german
+  - italian
+  examples:
+    baum: Search for "baum"
+help 0:
+  url: https://www.findfind.it/blog/overview-shortcuts-managing-shortcuts
+  title: Editieren von Shortcuts
+pinb 0:
+  url: https://pinboard.in
+  title: Pinboard User-Bookmarks
+posttrack 1:
+  url: https://service.post.ch/EasyTrack/submitParcelData.do?formattedParcelCodes=<query>&from_directentry=True&directSearch=false&p_language=de&VTI-GROUP=1&lang=de&service=ttb
+  title: Die Schweizerische Post - Track and Trace
+post 0:
+  url: https://www.post.ch/de
+  title: Die Post
+  description: Site der Schweizer Post
+dict 1:
+  url: http://www.dict.cc/?s=<query>
+  title: dict.cc Englisch - Deutsch
+shorts 0:
+  url: https://www.findfind.it/shortcuts?namespace=metatron
+  title: Metatron - Shortcuts
+w 1:
+  url: https://de.wikipedia.org/wiki/<query>
+  title: Wikipedia deutsch
+migros 1:
+  url: https://produkte.migros.ch/sortiment?q=<query>
+  title: Migros Gesamtsortiment
+  description: Migros Schweiz Gesamtsortiment
+  tags:
+  - migros
+  - einkaufen
+  - sortiment
+coop 1:
+  url: https://www.coop.ch/de/search/?text=<query>
+  title: Coop
+  description: Coop Schweiz Gesamtsortiment
+  tags:
+  - coop
+  - einkaufen
+  - sortiment
+bauund 1:
+  url: https://bauundhobby.ch/search/?text=<query>
+  title: Coop Bau + Hobby
+  description: Coop Bau + Hobby Gesamtsortiment
+  tags:
+  - coop
+  - bauundhobby
+  - einkaufen
+obi 1:
+  url: https://www.obi.ch/search/<query>/
+  title: OBI
+  tags:
+  - obi
+  - einkaufen
+doit 1:
+  url: https://www.doitgarden.ch/de/s?q=<query>
+  title: Migros Doit & Garden
+  tags:
+  - migros
+  - doit-garden
+  - einkaufen
+dictfr 1:
+  url: https://m.dict.cc/defr/?s=<query>
+  title: dict.cc Französisch
